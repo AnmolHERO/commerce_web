@@ -5,25 +5,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 
-// import Navbar from "./Component/Navbar/Navbar";
-// import {BrowserRouter,Routes,Route} from 'react-router-dom';
-// import Shop from './Pages/Shop';
-// import ShopCategory from './Pages/ShopCategory';
-// import Product from './Pages/Product';
-// import LoginSignup from './Pages/LoginSignup';
-// import Cart from './Pages/Cart';
-// import Footer from './Component/Footer/Footer';
-// import men_banner from './Component/Assets/banner_mens.png';
-// import women_banner from './Component/Assets/banner_women.png';
-// import kid_banner from './Component/Assets/banner_kids.png';
+import Navbar from './commerce-cloth_website/commerce-cloth_website/Component/Navbar/Navbar.jsx';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Shop from './commerce-cloth_website/commerce-cloth_website/Pages/Shop';
+import ShopCategory from './commerce-cloth_website/commerce-cloth_website/Pages/ShopCategory.jsx';
+import Product from './commerce-cloth_website/commerce-cloth_website/Pages/Product.jsx';
+import LoginSignup from './commerce-cloth_website/commerce-cloth_website/Pages/LoginSignup.jsx';
+import Cart from './commerce-cloth_website/commerce-cloth_website/Pages/Cart.jsx';
+import Footer from './commerce-cloth_website/commerce-cloth_website/Component/Footer/Footer.jsx';
+import men_banner from './commerce-cloth_website/commerce-cloth_website/Component/Assets/banner_mens.png';
+import women_banner from './commerce-cloth_website/commerce-cloth_website/Component/Assets/banner_women.png';
+import kid_banner from './commerce-cloth_website/commerce-cloth_website/Component/Assets/banner_kids.png';
 
-import Gym_Website from './Component_Gym_website/Component/Gym_Website';
-import Navbar from './Component_Gym_website/Component/Navbar';
-import Header from './Component_Gym_website/Component/Header';
-import Feature from './Component_Gym_website/Component/Feature';
-import Offer from './Component_Gym_website/Component/Offer';
-import About from './Component_Gym_website/Component/About';
-import Contact from './Component_Gym_website/Component/Contact';
+// import Gym_Website from './Component_Gym_website/Component/Gym_Website';
+// import Navbar from './Component_Gym_website/Component/Navbar';
+// import Header from './Component_Gym_website/Component/Header';
+// import Feature from './Component_Gym_website/Component/Feature';
+// import Offer from './Component_Gym_website/Component/Offer';
+// import About from './Component_Gym_website/Component/About';
+// import Contact from './Component_Gym_website/Component/Contact';
 
 
 // import Real_estate from './Ccomponent_Real_estate/Ccomponent/Real_estate';
@@ -55,27 +55,27 @@ function App() {
         </a>
       </header> */}
   
-<Gym_Website/>
+{/* <Gym_Website/>
 <Navbar/>
 <Header/>
 <Feature/>
 <Offer/>
 <About/>
-<Contact/>
+<Contact/> */}
 
-{/* <Real_estate/>
+ {/* <Real_estate/>
 <Navbar/>
 <Header/>
 <Howitwork/>
 <About/>
 <Agent/>
 <Properties/>
-<Contact/> */}
+<Contact/>  */}
 
 
 
 
-{/* 
+
 <BrowserRouter>
 <Navbar/>
 <Routes>
@@ -92,7 +92,7 @@ function App() {
 </Routes>
 <Footer/>
 </BrowserRouter>
- */}
+ 
 
     </div>
   );

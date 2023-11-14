@@ -4,15 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import ShopContextProvider from './Context/ShopContextProvider';
+import ShopContextProvider from  './commerce-cloth_website/commerce-cloth_website/Context/ShopContextProvider.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
 
-  // <ShopContextProvider>
+  <ShopContextProvider>
   <App/>
-  // </ShopContextProvider>
+  </ShopContextProvider>
 
 );
 
